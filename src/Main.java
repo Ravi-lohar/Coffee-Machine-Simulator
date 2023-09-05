@@ -16,7 +16,7 @@ public class Main {
             System.out.println("-------------------------------- ");
             System.out.println("1. Buy Coffee");
             System.out.println("2. Fill Ingredients");
-            System.out.println("3. Clean Machine");
+            System.out.println("3. Take Money");
             System.out.println("4. Check Ingredient Status");
             System.out.println("5. Coffee Sales Analytics   ");
             System.out.println("6. Exit");
@@ -31,7 +31,8 @@ public class Main {
                 simulator.fillIngredients(sc);
             }
             else if (choice == 3) {
-                System.out.println("Machine Cleaned");
+                simulator.takeMoney();
+                System.out.println("Done");
             }
             else if (choice == 4){
                 simulator.showIngredients();

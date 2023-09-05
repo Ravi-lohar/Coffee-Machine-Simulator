@@ -139,4 +139,12 @@ public class CoffeeMachine {
         if(water >= waterNeeded && beans >= beansNeeded && milk >= milkNeeded) return true;
         else return false;
     }
+
+    public void takeMoney() {
+        espressoCount = 0 ;
+        latteCount = 0 ;
+        cappuccinoCount = 0 ;
+        totalEarned = 0 ;
+
+    }
 }
